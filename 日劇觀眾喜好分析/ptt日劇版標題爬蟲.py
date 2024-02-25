@@ -19,9 +19,7 @@ for p in range(2846, 3048, 1):
             else:
                 data["Title"].append("")
 
-# 创建DataFrame
 df = pd.DataFrame(data)
 
-# 将DataFrame保存为CSV文件
 df.to_csv("japandrama_titles.csv", index=False)
 
